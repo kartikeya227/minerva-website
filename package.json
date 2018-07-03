@@ -4,8 +4,11 @@
   "description": "Official website for MINERVA Literary Society ABES EC",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start":"node server.js"
+    "start": "node server/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "node": "10.4.0"
   },
   "author": "Kartikeya Singh 2016BCS1001",
   "license": "ISC",
